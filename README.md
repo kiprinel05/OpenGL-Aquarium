@@ -1,4 +1,4 @@
-TEAM MEMBERS:<br>
+<b>TEAM MEMBERS:<\b><br><br>
 DUMITRASC CIPRIAN <br>
 ILIE PAUL <br>
 COSTIN BANGALA <br>
