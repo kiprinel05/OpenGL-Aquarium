@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>..\..\_external\GLEW\;..\..\_external\GLFW;..\..\_external\glm\;..\..\_external\stb\;$(IncludePath)</IncludePath>
-    <SourcePath>..\..\_external\GLEW\x64\;..\..\_external\GLFW\x64\;$(SourcePath)</SourcePath>
+    <IncludePath>..\..\_external\glew-2.1.0\include\;..\..\_external\glfw-3.4.bin.WIN64\include\GLFW\;..\..\_external\glm\;..\..\_external\stb\;$(IncludePath)</IncludePath>
+    <SourcePath>..\..\_external\glew-2.1.0\lib\Release\x64\;..\..\_external\glfw-3.4.bin.WIN64\lib-vc2022\;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -133,6 +133,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Aquarium.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="model_loader.cpp" />
+    <ClCompile Include="shader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.hpp" />
+    <ClInclude Include="mesh.hpp" />
+    <ClInclude Include="model_loader.hpp" />
+    <ClInclude Include="shader.hpp" />
+    <ClInclude Include="vertex.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fish.fs" />
+    <None Include="fish.vs" />
+    <None Include="water.fs" />
+    <None Include="water.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -16,10 +16,77 @@
     <Filter Include="Source Files\Main">
       <UniqueIdentifier>{9b4518a0-06e5-4051-9796-6b68e81205ff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Shader">
+      <UniqueIdentifier>{0413a188-29c5-4d06-abc4-0f494abccfaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader\shaders">
+      <UniqueIdentifier>{fae264f0-efa4-42e8-944c-3f020cf4311c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader\shaders\water">
+      <UniqueIdentifier>{253188cd-da7c-42b9-aa56-b837e94cdd31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader\shaders\fish">
+      <UniqueIdentifier>{545bf0a6-8dec-4239-8c5d-7485cffa564b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{e68f83de-a41c-4e81-82ce-06589dd259b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{d9827027-95dd-4f1d-b2e0-f380cb1045f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{a7dbf45a-37ec-4b0c-97f8-ca71713e6f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader\vertex">
+      <UniqueIdentifier>{fe44b66a-8807-4377-aa07-fbd812d3c336}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Aquarium.cpp">
       <Filter>Source Files\Main</Filter>
     </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="model_loader.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.hpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.hpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.hpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="model_loader.hpp">
+      <Filter>Source Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.hpp">
+      <Filter>Source Files\Shader\vertex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="water.fs">
+      <Filter>Source Files\Shader\shaders\water</Filter>
+    </None>
+    <None Include="water.vs">
+      <Filter>Source Files\Shader\shaders\water</Filter>
+    </None>
+    <None Include="fish.vs">
+      <Filter>Source Files\Shader\shaders\fish</Filter>
+    </None>
+    <None Include="fish.fs">
+      <Filter>Source Files\Shader\shaders\fish</Filter>
+    </None>
   </ItemGroup>
 </Project>
