@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{9032279a-6be3-4e4a-80ec-110c423a8ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{d8cf8e73-c1b6-423f-9fc7-ace30fc62673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader">
+      <UniqueIdentifier>{2e213216-4ce9-42f7-8c9b-808ae3dc72e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{e9e11f3f-c6ec-4ba1-9c94-305c738a419b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader\VS">
+      <UniqueIdentifier>{d1e5f522-daa8-4564-a9ee-40dcf60e64c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader\FS">
+      <UniqueIdentifier>{8bb93e13-e2bf-4011-94f2-299276df2ef0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="G3D.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.hpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.hpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="model.hpp">
+      <Filter>Source Files\Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="aquarium.fs">
+      <Filter>Source Files\Shader\FS</Filter>
+    </None>
+    <None Include="fish.fs">
+      <Filter>Source Files\Shader\FS</Filter>
+    </None>
+    <None Include="vegetation.fs">
+      <Filter>Source Files\Shader\FS</Filter>
+    </None>
+    <None Include="water.fs">
+      <Filter>Source Files\Shader\FS</Filter>
+    </None>
+    <None Include="aquarium.vs">
+      <Filter>Source Files\Shader\VS</Filter>
+    </None>
+    <None Include="fish.vs">
+      <Filter>Source Files\Shader\VS</Filter>
+    </None>
+    <None Include="vegetation.vs">
+      <Filter>Source Files\Shader\VS</Filter>
+    </None>
+    <None Include="water.vs">
+      <Filter>Source Files\Shader\VS</Filter>
+    </None>
+    <None Include="vertex_shader.vs">
+      <Filter>Source Files\Shader\VS</Filter>
+    </None>
+    <None Include="fragment_shader.fs" />
+  </ItemGroup>
+</Project>
