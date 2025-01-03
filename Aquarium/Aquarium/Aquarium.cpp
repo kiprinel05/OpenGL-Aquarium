@@ -29,7 +29,7 @@ int main() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Acvariu 3D", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Aquarium 3D", NULL, NULL);
     if (window == NULL) {
         std::cerr << "Failed to create GLFW window" << std::endl;
         glfwTerminate();
@@ -47,12 +47,12 @@ int main() {
 
     glEnable(GL_DEPTH_TEST);
 
-    Shader shader("shaders/vertex_shader.vs", "shaders/fragment_shader.fs");
+    Shader shader("Aquarium/shaders/vertex_shader.vs", "Aquarium/shaders/fragment_shader.fs");
 
     std::vector<Vertex> vertices;
     std::vector<unsigned int> indices;
 
-    if (!ModelLoader::LoadOBJ("Models/Fishes/fish_1.obj", vertices, indices)) {
+    if (!ModelLoader::LoadOBJ("Models/Fish/Angelfish/angelfish.obj", vertices, indices)) {
         std::cerr << "Failed to load model" << std::endl;
         return -1;
     }

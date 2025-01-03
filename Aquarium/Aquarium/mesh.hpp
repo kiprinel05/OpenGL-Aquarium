@@ -12,7 +12,6 @@ public:
     std::vector<unsigned int> indices;
 
     Mesh(std::vector<Vertex>& vertices, std::vector<unsigned int>& indices);
-
     void Draw(Shader& shader);
 
 private:
