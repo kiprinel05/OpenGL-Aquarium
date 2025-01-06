@@ -21,6 +21,8 @@ Fish::Fish(const Fish& other)
     InitFishMovements();
 }
 
+
+
 // Constructor for initializing a new Fish
 Fish::Fish(const glm::vec3& initialPos, Model* model)
 {
@@ -215,22 +217,17 @@ void Fish::MoveMovingFish(float deltaTime) {
 }
 
 void Fish::MoveFish(float deltaTime) {
-    // Check if the fish is currently in motion and if there's time left to move
     if (currentSpeed != 0.0f && m_timeLeft > 0.0f) {
-        // Calculate the distance the fish should move in the current frame
         float distance = currentSpeed * deltaTime;
         glm::vec3 movement = m_forward * distance;
 
-        // Update the fish's position
         m_position += movement;
 
-        // Reduce the remaining movement time
         m_timeLeft -= deltaTime;
 
-        // If the remaining movement time becomes non-positive, stop the fish
         if (m_timeLeft <= 0.0f) {
-            currentSpeed = 0.0f; // Reset speed to zero
-            m_timeLeft = 0.0f; // Ensure time left is not negative
+            currentSpeed = 0.0f;
+            m_timeLeft = 0.0f;
         }
     }
 }
@@ -279,7 +276,7 @@ float Fish::GetFishSize() const
     return fishSize;
 }
 
-float Fish::GetFishMovementTimer() const
+float Fish::GetFishMTimer() const
 {
     return m_fishMovementTimer;
 }
@@ -289,7 +286,7 @@ void Fish::SetFishSize(float size)
     fishSize = size;
 }
 
-void Fish::SetFishMovementTimer(float timer)
+void Fish::SetFishMTimer(float timer)
 {
     m_fishMovementTimer = timer;
 }

@@ -46,6 +46,9 @@
     <Filter Include="Resource Files\Vertex\SMDepth">
       <UniqueIdentifier>{8f0dfa1e-f860-406a-bd36-da152bf9f042}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Vertex\Water">
+      <UniqueIdentifier>{010b3645-2d4f-48ad-8b0b-0148e83b75fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -108,9 +111,6 @@
     <None Include="..\Shaders\sandDune.vs">
       <Filter>Resource Files\Vertex\sandDune</Filter>
     </None>
-    <None Include="..\Shaders\ShadowMapping.fs">
-      <Filter>Resource Files\Vertex\shadowMapping</Filter>
-    </None>
     <None Include="..\Shaders\ShadowMapping.vs">
       <Filter>Resource Files\Vertex\shadowMapping</Filter>
     </None>
@@ -119,6 +119,15 @@
     </None>
     <None Include="..\Shaders\ShadowMappingDepth.vs">
       <Filter>Resource Files\Vertex\SMDepth</Filter>
+    </None>
+    <None Include="..\Shaders\ShadowMapping.fs">
+      <Filter>Resource Files\Vertex\shadowMapping</Filter>
+    </None>
+    <None Include="Water.vs">
+      <Filter>Resource Files\Vertex\Water</Filter>
+    </None>
+    <None Include="Water.fs">
+      <Filter>Resource Files\Vertex\Water</Filter>
     </None>
   </ItemGroup>
 </Project>

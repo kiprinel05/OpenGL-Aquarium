@@ -51,10 +51,10 @@ public:
 	void StartNewMovement(float totalTime, EFishMovementType direction);
 
 	float GetFishSize() const;
-	float GetFishMovementTimer() const;
+	float GetFishMTimer() const;
 
 	void SetFishSize(float size);
-	void SetFishMovementTimer(float timer);
+	void SetFishMTimer(float timer);
 
 	float GetYaw() const;
 

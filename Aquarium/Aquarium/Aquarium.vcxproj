@@ -169,16 +169,24 @@
     <ClInclude Include="Vertex.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Shaders\Border.fs" />
+    <None Include="..\Shaders\Border.fs">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </None>
     <None Include="..\Shaders\Border.vs" />
     <None Include="..\Shaders\sandDune.fs" />
     <None Include="..\Shaders\sandDune.vs" />
-    <None Include="..\Shaders\ShadowMapping.fs" />
+    <None Include="..\Shaders\ShadowMapping.fs">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </None>
     <None Include="..\Shaders\ShadowMapping.vs" />
     <None Include="..\Shaders\ShadowMappingDepth.fs" />
     <None Include="..\Shaders\ShadowMappingDepth.vs" />
     <None Include="packages.config" />
     <None Include=".fs" />
+    <None Include="Water.fs">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Water.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
