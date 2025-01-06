@@ -19,7 +19,6 @@ void main()
     vec3 color = texture(diffuseMap, TexCoords).rgb;
     float roughness = texture(roughnessMap, TexCoords).r;
 
-    // Iluminare ambientalã de bazã
     vec3 ambient = 0.1 * color;
 
     FragColor = vec4(ambient, 1.0);
