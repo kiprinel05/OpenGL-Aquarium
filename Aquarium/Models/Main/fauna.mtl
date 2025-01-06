@@ -281,96 +281,6 @@ d 1.000000
 illum 2
 map_Kd darkSand.jpg
 
-newmtl Material_0
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.500000
-d 1.000000
-illum 1
-map_Kd C:/Users/Asus/Documents/GitHub/AquariumProjectRaluca/Aquarium/Models/Fauna/plant/tex1.jpg
-
-newmtl Material_0.001
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.500000
-d 1.000000
-illum 1
-map_Kd C:/Users/Asus/Documents/GitHub/AquariumProjectRaluca/Aquarium/Models/Fauna/plant/tex1.jpg
-
-newmtl Material_0.002
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.500000
-d 1.000000
-illum 1
-map_Kd C:/Users/Asus/Documents/GitHub/AquariumProjectRaluca/Aquarium/Models/Fauna/plant/tex1.jpg
-
-newmtl Material_1
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.500000
-d 1.000000
-illum 1
-map_Kd C:/Users/Asus/Documents/GitHub/AquariumProjectRaluca/Aquarium/Models/Fauna/plant/tex2.jpg
-
-newmtl Material_1.001
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.500000
-d 1.000000
-illum 1
-map_Kd C:/Users/Asus/Documents/GitHub/AquariumProjectRaluca/Aquarium/Models/Fauna/plant/tex2.jpg
-
-newmtl Material_1.002
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.500000
-d 1.000000
-illum 1
-map_Kd C:/Users/Asus/Documents/GitHub/AquariumProjectRaluca/Aquarium/Models/Fauna/plant/tex2.jpg
-
-newmtl Material_2
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.500000 0.500000 0.500000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.500000
-d 1.000000
-illum 1
-
-newmtl Material_2.001
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.500000 0.500000 0.500000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.500000
-d 1.000000
-illum 1
-
-newmtl Material_2.002
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.500000 0.500000 0.500000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.500000
-d 1.000000
-illum 1
-
 newmtl doubloon
 Ns 46.000000
 Ka 1.000000 1.000000 1.000000
@@ -478,6 +388,46 @@ illum 2
 map_Kd FanCoralSkin_Orange_Mat_diffuse.png
 map_Ks FanCoralSkin_Orange_Mat_diffuse.png
 map_Bump FanCoralSkin_Orange_Mat_normal.png
+
+newmtl mat0.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Material_0_baseColor.jpg
+
+newmtl mat0.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Material_0_baseColor.jpg
+
+newmtl mat0.010
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Material_0_baseColor.jpg
+
+newmtl mat0.011
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Material_0_baseColor.jpg
 
 newmtl mat1
 Ka 1.000000 1.000000 1.000000
@@ -629,6 +579,46 @@ map_Kd FanCoralSkin_Violet_Mat_diffuse.png
 map_Ks FanCoralSkin_Violet_Mat_diffuse.png
 map_Bump FanCoralSkin_Violet_Mat_normal.png
 
+newmtl mat1.013
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Material_1_baseColor.jpg
+
+newmtl mat1.014
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Material_1_baseColor.jpg
+
+newmtl mat1.015
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Material_1_baseColor.jpg
+
+newmtl mat1.016
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Material_1_baseColor.jpg
+
 newmtl mat2
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
@@ -694,6 +684,46 @@ illum 2
 map_Kd FanCoralSkin_White_Mat_diffuse.png
 map_Ks FanCoralSkin_White_Mat_diffuse.png
 map_Bump FanCoralSkin_White_Mat_normal.png
+
+newmtl mat2.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl mat2.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl mat2.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl mat2.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
 
 newmtl mat3
 Ns 250.000000
