@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{f3420ea4-d4dd-4b17-99be-7d99932a61f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fish">
+      <UniqueIdentifier>{8827bb47-fe40-4e72-956a-60b0c3e648e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{f5009f8a-3e6e-4507-81af-a7b24da1ff0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{6f43f30a-7ae2-4182-97e6-999d3b11db91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader">
+      <UniqueIdentifier>{3e726186-66eb-4a9f-9150-1c67e72a1603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texture">
+      <UniqueIdentifier>{9613e6e6-c37e-44e0-a708-3dee709233b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Vertex">
+      <UniqueIdentifier>{788b9648-16a8-419c-b909-087d44e1d8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Vertex\Border">
+      <UniqueIdentifier>{fea985cc-17da-4771-a710-207cfeed74fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Vertex\sandDune">
+      <UniqueIdentifier>{ba170008-0426-4a5a-9be0-053f0212e6f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Vertex\shadowMapping">
+      <UniqueIdentifier>{ee330eff-4ce3-4487-9215-0c4e718f8018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Vertex\SMDepth">
+      <UniqueIdentifier>{8f0dfa1e-f860-406a-bd36-da152bf9f042}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Fish.cpp">
+      <Filter>Source Files\Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Texture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Fish.h">
+      <Filter>Source Files\Fish</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Source Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Source Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Resource Files\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files\Texture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include=".fs" />
+    <None Include="..\Shaders\Border.fs">
+      <Filter>Resource Files\Vertex\Border</Filter>
+    </None>
+    <None Include="..\Shaders\Border.vs">
+      <Filter>Resource Files\Vertex\Border</Filter>
+    </None>
+    <None Include="..\Shaders\sandDune.fs">
+      <Filter>Resource Files\Vertex\sandDune</Filter>
+    </None>
+    <None Include="..\Shaders\sandDune.vs">
+      <Filter>Resource Files\Vertex\sandDune</Filter>
+    </None>
+    <None Include="..\Shaders\ShadowMapping.fs">
+      <Filter>Resource Files\Vertex\shadowMapping</Filter>
+    </None>
+    <None Include="..\Shaders\ShadowMapping.vs">
+      <Filter>Resource Files\Vertex\shadowMapping</Filter>
+    </None>
+    <None Include="..\Shaders\ShadowMappingDepth.fs">
+      <Filter>Resource Files\Vertex\SMDepth</Filter>
+    </None>
+    <None Include="..\Shaders\ShadowMappingDepth.vs">
+      <Filter>Resource Files\Vertex\SMDepth</Filter>
+    </None>
+  </ItemGroup>
+</Project>
